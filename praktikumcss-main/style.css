@@ -1,0 +1,54 @@
+h1 {
+    color: white;
+    text-align: center;
+}
+
+#header {
+    background-color: blueviolet;
+    height: 125px;
+    padding: 5px;
+}
+
+.menu li {
+    display: inline;
+    margin: 40px;
+}
+
+.menu a {
+    margin-left: 200px;
+}
+.menu a:hover {
+    font-weight: bold;
+    color: blueviolet;
+}
+
+.isi::first-letter {
+    font-size: 40px;
+    color: purple;
+}
+
+.gambar {
+    width: 100px;
+    display: flex;
+    padding-left: 270px;  
+}
+
+.koleksi {
+    height: 250px;
+    width: 200px;
+    display: flex;
+    padding-left: 50px;
+}
+
+.promo {
+    text-align: center;
+}
+
+.promo li {
+    list-style: none;
+}
+
+.promo li a:hover {
+    font-weight: bold;
+    color: blueviolet;
+}
